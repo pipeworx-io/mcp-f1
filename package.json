@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-f1",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "F1 MCP — Formula 1 data via the Ergast API",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-14eed1f5dfb4c5847786abff8e16dfda78de4a809975694ca1b200ee5ba1d6f9",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-242ba6c1cf3f74526e05de8c3bf881b1637bce8d5e3bd8b45287b938b3abd069",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
