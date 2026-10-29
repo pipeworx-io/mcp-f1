@@ -1,0 +1,63 @@
+[
+  {
+    "name": "get_current_standings",
+    "description": "Check current F1 driver championship standings. Returns position, points, wins, driver name, and constructor for all drivers.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_race_results",
+    "description": "Get race results for a specific F1 grand prix. Provide season year and round number (e.g., 2024, round 5). Returns finishing position, driver, constructor, status, and points.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "string",
+          "description": "Season year (e.g., \"2025\")"
+        },
+        "round": {
+          "type": "string",
+          "description": "Round number within the season (e.g., \"1\")"
+        }
+      },
+      "required": [
+        "season",
+        "round"
+      ]
+    }
+  },
+  {
+    "name": "get_schedule",
+    "description": "Get the F1 season race calendar. Provide year (e.g., 2024). Returns all rounds with race name, circuit, location, and date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "string",
+          "description": "Season year (e.g., \"2025\")"
+        }
+      },
+      "required": [
+        "season"
+      ]
+    }
+  },
+  {
+    "name": "get_driver",
+    "description": "Look up F1 driver profile by ID. Returns name, car number, nationality, and date of birth.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "driverId": {
+          "type": "string",
+          "description": "Ergast driver ID (e.g., \"hamilton\", \"verstappen\", \"leclerc\")"
+        }
+      },
+      "required": [
+        "driverId"
+      ]
+    }
+  }
+]
