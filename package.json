@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-f1",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "F1 MCP — Formula 1 data via the Ergast API",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "f1",
     "gatewaySlug": "f1",
-    "sourceHash": "v1-acf88caf81145aa19e6edcb9d7ec01ff94618f6f852702cec9034cfa6550cb69",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-05dfe51e5dbd58cf395490acdcd6aa6a97d2d9281b39b6af1c47cd63d044291c",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
